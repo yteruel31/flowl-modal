@@ -1,0 +1,39 @@
+{
+  "include": [
+    "src",
+    "scripts",
+    "configuration"
+  ],
+  "exclude": [
+    "node_modules",
+    "lib",
+    "esm",
+    "cjs",
+    "jest-config.js",
+    "configuration/storybook/main.js",
+    "lib/**/*",
+    "esm/**/*",
+    "cjs/**/*"
+  ],
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "DOM",
+      "ESNext"
+    ],
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "rootDir": "src",
+    "baseUrl": ".",
+    "outDir": "lib",
+    "declarationDir": "lib"
+  }
+}

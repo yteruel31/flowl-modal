@@ -1,0 +1,29 @@
+{
+  "name": "flowl-modal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "storybook": "esno scripts/storybook"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-focus-lock": "^2.9.1",
+    "react-transition-group": "^4.4.2",
+    "styled-components": "^5.3.5",
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "@storybook/addons": "^6.4.22",
+    "@storybook/components": "^6.4.22",
+    "@storybook/core-events": "^6.4.22",
+    "@storybook/react": "^6.4.22",
+    "@types/react-transition-group": "^4.4.4",
+    "@types/styled-components": "^5.1.25",
+    "esno": "^0.14.1",
+    "storybook-addon-outline": "^1.4.2",
+    "tsconfig-paths-webpack-plugin": "^3.5.2",
+    "yargs": "^17.4.1"
+  }
+}
